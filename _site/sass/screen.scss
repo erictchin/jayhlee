@@ -109,7 +109,7 @@ p{
 ===========================*/
 
 .nav{
-	max-width: 900px;
+	max-width: 1000px;
 	position: relative;
 	margin: 0 auto;
 	margin-top: 30px;
@@ -118,8 +118,8 @@ p{
 	text-align: left;
 	margin-bottom: 50px;
 	ul{
-		padding-top: 30px;
-		padding-bottom: 47.5px;
+		padding-top: 20px;
+		padding-bottom: 60px;
 	}
 	li{
 		display: inline-block;
@@ -131,14 +131,15 @@ p{
 		font-variant: small-caps;
 	}
 	.nav-link:hover{
-		color: $grey;
+		color: $blue;
 	}
 	.left{
+        margin-top: 10px;
 		float: left;
 	}
 	.right{
 		float: right;
-		margin-right: 30px;
+		margin-right: 20px;
 		position: relative;
 		display: block;
 		a{

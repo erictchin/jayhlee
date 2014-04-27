@@ -240,7 +240,7 @@ p {
 =            NAV            =
 ===========================*/
 .nav {
-  max-width: 900px;
+  max-width: 1000px;
   position: relative;
   margin: 0 auto;
   margin-top: 30px;
@@ -249,8 +249,8 @@ p {
   text-align: left;
   margin-bottom: 50px; }
   .nav ul {
-    padding-top: 30px;
-    padding-bottom: 47.5px; }
+    padding-top: 20px;
+    padding-bottom: 60px; }
   .nav li {
     display: inline-block; }
   .nav .nav-link {
@@ -259,12 +259,13 @@ p {
     letter-spacing: 2px;
     font-variant: small-caps; }
   .nav .nav-link:hover {
-    color: #595959; }
+    color: rgba(85, 172, 195, 0.5); }
   .nav .left {
+    margin-top: 10px;
     float: left; }
   .nav .right {
     float: right;
-    margin-right: 30px;
+    margin-right: 20px;
     position: relative;
     display: block; }
     .nav .right a {
