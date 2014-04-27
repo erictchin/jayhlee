@@ -131,7 +131,7 @@ p{
 		font-variant: small-caps;
 	}
 	.nav-link:hover{
-		color: $blue;
+		color: $grey;
 	}
 	.left{
         margin-top: 10px;
@@ -158,6 +158,9 @@ p{
 				@include transition(all, .2s, ease);
 			}
 		}
+        a:hover{
+            color: $blue;   
+        }
 	}
 }
 

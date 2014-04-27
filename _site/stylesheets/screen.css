@@ -259,7 +259,7 @@ p {
     letter-spacing: 2px;
     font-variant: small-caps; }
   .nav .nav-link:hover {
-    color: rgba(85, 172, 195, 0.5); }
+    color: #595959; }
   .nav .left {
     margin-top: 10px;
     float: left; }
@@ -289,6 +289,8 @@ p {
         -ms-transition: all 0.2s ease;
         -o-transition: all 0.2s ease;
         transition: all 0.2s ease; }
+    .nav .right a:hover {
+      color: rgba(85, 172, 195, 0.5); }
 
 /*-----  End of NAV  ------*/
 /*================================
