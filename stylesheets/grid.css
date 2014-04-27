@@ -1,0 +1,6 @@
+/*! 
+ * Flow - A Fully Fluid Responsive Grid System
+ * Created by Isaac Gray
+ *
+ * Generate a grid at http://flow.gs
+ */.grid{clear:both;padding:0;margin:0;margin-left:-0.3em}.col{display:block;float:left;width:100%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;background-clip:padding-box;-moz-background-clip:padding-box;-webkit-background-clip:padding-box;margin:0 0 0.3em 0;border-left:0.3em solid transparent}.group:before,.group:after{content:"";display:table}.group:after{clear:both}.grid-nav{padding:0 10px 0 10px;max-width:600px;position:relative;margin-top:25px}@media only screen and (min-width: 480px){.col{width:auto}.grid-3{width:33.33%}.grid-2-thirds{width:66.66%}.grid-full{width:100%}.grid-half{width:50%}}
