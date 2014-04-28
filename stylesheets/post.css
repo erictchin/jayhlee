@@ -1,21 +1,21 @@
 /*
 Syntax error: Undefined variable: "$grey".
-        on line 20 of sass/post.scss
+        on line 21 of sass/post.scss
 
-15: 		margin-top: 10px;
 16: 		margin-bottom: 10px;
 17: 	}
-18: 	h1{
-19: 		font-size: 2em;
-20:     	color: $grey;
-21:     	margin: 20px 0 10px 0;
-22:     	padding: 0 10px 0 10px;
-23: 	}
-24: 	h2{
-25: 		color: $blue;
+18:     
+19: 	h1{
+20: 		font-size: 2em;
+21:     	color: $grey;
+22:     	margin: 20px 0 10px 0;
+23:     	padding: 0 10px 0 10px;
+24: 	}
+25: 	h2{
+26: 		color: $blue;
 
 Backtrace:
-sass/post.scss:20
+sass/post.scss:21
 /Users/etch/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/etch/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/etch/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/perform.rb:366:in `visit_prop'
@@ -76,4 +76,4 @@ sass/post.scss:20
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$grey\".\A         on line 20 of sass/post.scss\A \A 15: 		margin-top: 10px;\A 16: 		margin-bottom: 10px;\A 17: 	}\A 18: 	h1{\A 19: 		font-size: 2em;\A 20:     	color: $grey;\A 21:     	margin: 20px 0 10px 0;\A 22:     	padding: 0 10px 0 10px;\A 23: 	}\A 24: 	h2{\A 25: 		color: $blue;"; }
+  content: "Syntax error: Undefined variable: \"$grey\".\A         on line 21 of sass/post.scss\A \A 16: 		margin-bottom: 10px;\A 17: 	}\A 18:     \A 19: 	h1{\A 20: 		font-size: 2em;\A 21:     	color: $grey;\A 22:     	margin: 20px 0 10px 0;\A 23:     	padding: 0 10px 0 10px;\A 24: 	}\A 25: 	h2{\A 26: 		color: $blue;"; }
