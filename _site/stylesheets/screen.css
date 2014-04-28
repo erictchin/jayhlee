@@ -516,6 +516,17 @@ section h1 {
     position: relative;
     margin-top: 30px;
     margin-bottom: 20px; }
+    .post-wrapper .content .attachment {
+      margin: 30px;
+      padding: 5px;
+      min-width: 300px;
+      display: block; }
+    .post-wrapper .content a.attachment {
+      background-color: #EDEDED;
+      color: #595959; }
+    .post-wrapper .content a.attachment:hover {
+      background-color: #dedede;
+      color: #595959; }
   .post-wrapper pre {
     max-width: 400px;
     text-align: left; }
